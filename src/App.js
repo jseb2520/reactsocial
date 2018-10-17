@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Facebook from './components/Facebook';
+import Google from './components/Google';
 class App extends Component {
   render() {
     return (
@@ -20,6 +22,10 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <p className="App-intro"> To get started authenticate with</p>
+        <Facebook />
+        
+        <Google />
       </div>
     );
   }
